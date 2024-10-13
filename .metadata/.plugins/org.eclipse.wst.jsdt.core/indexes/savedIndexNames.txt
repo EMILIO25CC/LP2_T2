@@ -1,0 +1,8 @@
+INDEX VERSION 1.3+C:\Users\amocl\OneDrive\Escritorio\LP2_T2\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+837461948.index
+573110985.index
+1167430505.index
+844829809.index
+3584304451.index
+3453224750.index
+539418036.index

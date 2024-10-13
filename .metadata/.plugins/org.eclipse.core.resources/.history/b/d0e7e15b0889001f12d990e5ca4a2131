@@ -1,0 +1,10 @@
+package TestProveedor;
+
+public class EliminarProveedor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

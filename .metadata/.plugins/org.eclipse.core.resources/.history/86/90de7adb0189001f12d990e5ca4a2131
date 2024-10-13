@@ -1,0 +1,32 @@
+package TestUsuario;
+
+import DaoImp.UsuarioImp;
+import model.TblUsuariocl2;
+
+public class RegistraUsuario {
+
+	public static void main(String[] args) {
+		
+		//Test Registrar Usuario
+		 
+		//Instanciamos  las respectivas clase
+		TblUsuariocl2 tbUsu= new TblUsuariocl2();
+			UsuarioImp usuImp= new UsuarioImp();
+			
+			//Asignamos valores que sean registrados en al BD
+			tblcli.setNombre("Camila");
+			tblcli.setApellido("Ramirez");
+			tblcli.setSexo("F");
+			tblcli.setDni("936214526");
+			tblcli.setEmail("camila@gmail.com");
+			tblcli.setTelef("915926348");
+			
+			//invocamos los m todos registrar
+			cliimp.RegistrarCliente(tblcli);
+			
+			//emitimos mensaje por consola
+			 System.out.print("Datos Registrados en la BD"); 
+		
+	}
+
+}

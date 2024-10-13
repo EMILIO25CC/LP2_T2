@@ -1,0 +1,29 @@
+package TestUsuario;
+
+import DaoImp.UsuarioImp;
+import model.TblUsuariocl2;
+
+public class ActualizarUsuario {
+
+	public static void main(String[] args) {
+		
+		//Test Actualizar Usuario
+		
+				TblCliente tblcli= new TblCliente();
+				ClienteImp cliimp= new ClienteImp();
+				
+				tblcli.setIdcliente(1);
+				tblcli.setNombre("Emilio");
+				tblcli.setApellido("Bernales");
+				tblcli.setSexo("M");
+				tblcli.setDni("784521369");
+				tblcli.setEmail("juan@gmail.com");
+				tblcli.setTelef("987456325");
+				cliimp.ActualizarCliente(tblcli);
+				
+				
+				System.out.print("Datos Actualizado en la BD");
+		
+	}
+
+}

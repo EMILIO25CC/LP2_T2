@@ -1,0 +1,11 @@
+package TestProveedor;
+
+
+
+public class RegistrarProveedor {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

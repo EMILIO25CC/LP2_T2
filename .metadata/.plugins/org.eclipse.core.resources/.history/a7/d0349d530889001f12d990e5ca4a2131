@@ -1,0 +1,14 @@
+package TestProveedor;
+
+import model.TblProveedorcl2;
+import DaoImp.ProveedorImp;
+
+public class RegistrarProveedor {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

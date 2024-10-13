@@ -1,0 +1,62 @@
+package DaoImp;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+import Interfaces.IUsuario;
+import model.TblUsuariocl2;
+
+public class UsuarioImp implements IUsuario {
+
+	public EntityManager em;
+	public UsuarioImp(){
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("ProyectoJPAMavenMarNoche");
+		em = emf.createEntityManager();
+	}
+	
+	public void RegistrarUsuario(TblUsuariocl2 tblUsuariocl2) {
+		try {
+			//Iniciamos transaccion
+			em.getTransaction().begin();
+			
+			em.persist(tblUsuariocl2);
+			//Confirmamos la Transaccion
+			em.getTransaction().commit();
+			
+		} catch (RuntimeException e) {
+			e.getMessage();
+		}finally {
+			em.close();
+		}
+		
+		
+	}//===========================================================================================
+
+	public void ActualizarUsuario(TblUsuariocl2 tblUsuariocl2) {
+		
+		
+		
+	}//===========================================================================================
+
+	public void EliminarUsuario(TblUsuariocl2 tblUsuariocl2) {
+		
+		
+		
+	}//===========================================================================================
+
+	public List<TblUsuariocl2> ListarUsuario() {
+		
+		
+		return null;
+	}//===========================================================================================
+
+	
+	public TblUsuariocl2 BuscarProducto(TblUsuariocl2 tblUsuariocl2) {
+		
+		return null;
+	}//===========================================================================================
+
+}//FIN

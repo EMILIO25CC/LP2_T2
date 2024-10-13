@@ -1,0 +1,35 @@
+package DaoImp;
+
+import java.util.List;
+
+import Interfaces.IProveedor;
+import model.TblProveedorcl2;
+
+public class ProveedorImp implements IProveedor{
+
+	public void RegistrarProveedor(TblProveedorcl2 proveedorcl2) {
+		
+		
+	}
+
+	public void ActualizarProveedor(TblProveedorcl2 proveedorcl2) {
+		
+		
+	}
+
+	public void EliminarProveedor(TblProveedorcl2 proveedorcl2) {
+		
+		
+	}
+
+	public List<TblProveedorcl2> ListarProveedor() {
+		
+		return null;
+	}
+
+	public TblProveedorcl2 BuscarProveedor(TblProveedorcl2 proveedorcl2) {
+		
+		return null;
+	}
+
+}

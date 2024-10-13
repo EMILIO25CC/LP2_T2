@@ -1,0 +1,10 @@
+package TestUsuario;
+
+public class RegistraUsuario {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package TestUsuario;
+
+import DaoImp.UsuarioImp;
+import model.TblUsuariocl2;
+
+public class EliminarUsuario {
+
+	TblUsuariocl2 tbUsu= new TblUsuariocl2();
+	UsuarioImp usuImp= new UsuarioImp();
+	
+	
+	
+	
+	cliimp.EliminarCliente(tblcli);
+	
+	
+	
+}

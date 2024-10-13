@@ -1,0 +1,26 @@
+package TestUsuario;
+
+import DaoImp.UsuarioImp;
+import model.TblUsuariocl2;
+
+public class ActualizarUsuario {
+
+	public static void main(String[] args) {
+		
+		//Test Actualizar Usuario
+		
+		TblUsuariocl2 tbUsu= new TblUsuariocl2();
+		UsuarioImp usuImp= new UsuarioImp();
+				
+		tbUsu.setIdusuariocl2(1);
+		
+		tbUsu.setUsuariocl2("Elimio");
+		tbUsu.setPasswordcl2("5858");
+		
+				
+				
+				System.out.print("Datos Actualizado en la BD");
+		
+	}
+
+}
