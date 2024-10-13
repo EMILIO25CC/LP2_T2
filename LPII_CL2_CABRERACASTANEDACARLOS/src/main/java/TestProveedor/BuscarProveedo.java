@@ -8,6 +8,8 @@ public class BuscarProveedo {
 	public static void main(String[] args) {
 		TblProveedorcl2 tbPro = new TblProveedorcl2();
 		ProveedorImp proImp= new ProveedorImp();
+		
+		
 	}
 
 }

@@ -16,7 +16,7 @@ public class RegistrarProveedor {
 		ProveedorImp proImp= new ProveedorImp();
 					
 					//Asignamos valores que sean registrados en al BD
-					tbPro.setNomproveecl2("FarmaPeru");
+					tbPro.setNomproveecl2("Jorge");
 					tbPro.setRucproveecl2("R25");
 					tbPro.setRsocialproveecl2("Nuevo");
 					tbPro.setEmailproveecl2("jorge@gmail.com");

@@ -11,8 +11,8 @@ public class ActualizarProveedor {
 
 		
 		//Asignamos valores que sean registrados en al BD
-		tbPro.setIdprooveedorcl2(2);
-		tbPro.setNomproveecl2("FramaChile");
+		tbPro.setIdprooveedorcl2(1);
+		tbPro.setNomproveecl2("Marcos");
 		tbPro.setRucproveecl2("R25");
 		tbPro.setRsocialproveecl2("Nuevo");
 		tbPro.setEmailproveecl2("jorge@gmail.com");

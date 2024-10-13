@@ -12,7 +12,7 @@ public class EliminarProveedor {
 		ProveedorImp proImp= new ProveedorImp();
 
 		
-		tbPro.setIdprooveedorcl2(2);
+		tbPro.setIdprooveedorcl2(1);
 		
 		proImp.EliminarProveedor(tbPro);
 	}
